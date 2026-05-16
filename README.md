@@ -5,6 +5,7 @@ A professional and scalable HR Management System RESTful API built with Laravel 
 # ✨ Features
 
 ## 🔐 Authentication & Authorization
+
 - Secure authentication using Laravel Sanctum
 - Login & Register APIs
 - Protected routes with middleware
@@ -14,6 +15,7 @@ A professional and scalable HR Management System RESTful API built with Laravel 
 ---
 
 ## 👨‍💼 Employee Management
+
 - Create employees
 - Update employee data
 - Delete employees
@@ -25,6 +27,7 @@ A professional and scalable HR Management System RESTful API built with Laravel 
 ---
 
 ## 🏢 Department Management
+
 - Create departments
 - Update departments
 - Delete departments
@@ -34,6 +37,7 @@ A professional and scalable HR Management System RESTful API built with Laravel 
 ---
 
 ## ⏰ Attendance System
+
 - Employee Check-In
 - Employee Check-Out
 - Attendance history
@@ -75,58 +79,63 @@ A professional and scalable HR Management System RESTful API built with Laravel 
 
 ---
 
-# 📂 Project Structure
+# 🔥 API Modules
+
+## Authentication
+
+- Register
+- Login
+- Logout
+- Current User
+
+## Departments
+
+- CRUD Operations
+
+## Employees
+
+- CRUD Operations
+
+## Attendance
+
+- Check In
+- Check Out
+- Attendance History
+
+## Leaves
+
+- Apply Leave
+- Leave Decision
+- Leave Balance
+
+## Payrolls
+
+- Generate Payroll
+- Mark as Paid
+- Payroll History
+
+---
+
+# ⚙️ Installation & Setup
+
+## 1️⃣ Clone Repository
 
 ```bash
-app/
- ├── Models/
- ├── Services/
- ├── Http/
- └── Providers/
-
-routes/
- └── api.php
-
-database/
- └── migrations/
-
-
- 🔥 API Modules
-Authentication
-Register
-Login
-Logout
-Current User
-Departments
-CRUD Operations
-Employees
-CRUD Operations
-Attendance
-Check In
-Check Out
-Attendance History
-Leaves
-Apply Leave
-Leave Decision
-Leave Balance
-Payrolls
-Generate Payroll
-Mark as Paid
-Payroll History
-
-⚙️ Installation & Setup
-1️⃣ Clone Repository
 git clone https://github.com/HebaAbdElhamed/laravel-hr-management-system-api.git
+```
 
-2️⃣ Enter Project Folder
+## 2️⃣ Enter Project Folder
+```bash
 cd laravel-hr-management-system-api
-3️⃣ Install Dependencies
+```
+
+## 3️⃣ Install Dependencies
 composer install
-4️⃣ Create Environment File
+## 4️⃣ Create Environment File
 cp .env.example .env
-5️⃣ Generate Application Key
+## 5️⃣ Generate Application Key
 php artisan key:generate
-6️⃣ Configure Database
+## 6️⃣ Configure Database
 
 Update your .env file:
 
@@ -197,4 +206,7 @@ If you like this project:
 Star the repository ⭐
 Fork the project 🍴
 Share it with others 🚀
+
+```
+
 ```
