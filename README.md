@@ -193,8 +193,7 @@ http://127.0.0.1:8000
 
 The frontend application for this project is available here:
 👉 Frontend Repository:
-
-https://github.com/HebaAbdElhamed
+https://github.com/HebaAbdElhamed/nextjs-hr-management-system.git
 
 If you don't have a frontend yet, you can use the frontend repository from my GitHub profile. https://github.com/HebaAbdElhamed
 
