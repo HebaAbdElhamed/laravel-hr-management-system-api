@@ -125,26 +125,31 @@ git clone https://github.com/HebaAbdElhamed/laravel-hr-management-system-api.git
 ```
 
 ## 2️⃣ Enter Project Folder
+
 ```bash
 cd laravel-hr-management-system-api
 ```
 
 ## 3️⃣ Install Dependencies
+
 ```bash
 composer install
 ```
 
 ## 4️⃣ Create Environment File
+
 ```bash
 cp .env.example .env
 ```
 
 ## 5️⃣ Generate Application Key
+
 ```bash
 php artisan key:generate
 ```
 
 ## 6️⃣ Configure Database
+
 ```bash
 Update your .env file:
 
@@ -154,31 +159,35 @@ DB_PASSWORD=your_database_password
 ```
 
 ## 7️⃣ Run Migrations
+
 ```bash
 php artisan migrate
 ```
 
 ## 8️⃣ Start Development Server
+
 ```bash
 php artisan serve
 ```
 
 ## Server will run on:
+
 ```bash
 http://127.0.0.1:8000
 ```
 
 # 🔑 API Authentication
+
 - This project uses:
-  - Laravel Sanctum
-  - Protected routes require Bearer Token authentication.
+    - Laravel Sanctum
+    - Protected routes require Bearer Token authentication.
 
 # 📬 API Testing
 
 - You can test APIs using:
-  - Postman
-  - Insomnia
-  - Thunder Client
+    - Postman
+    - Insomnia
+    - Thunder Client
 
 # 🌐 Frontend Repository
 
@@ -193,18 +202,18 @@ If you don't have a frontend yet, you can use the frontend repository from my Gi
 
 This project follows:
 
- - RESTful API standards
- - Clean code principles
- - MVC Architecture
- - Service Layer Pattern
- - Reusable business logic
- - Scalable folder structure
- - Middleware-based authorization
-
+- RESTful API standards
+- Clean code principles
+- MVC Architecture
+- Service Layer Pattern
+- Reusable business logic
+- Scalable folder structure
+- Middleware-based authorization
 
 # 👩‍💻 Author
-## Heba Elgohary
-## LinkedIn: https://www.linkedin.com/in/heba-elgohary-a13074167/
-## GitHub: https://github.com/HebaAbdElhamed
-## Email: hebaabdelhamede@gmail.com
 
+## Heba Elgohary
+
+- LinkedIn: https://www.linkedin.com/in/heba-elgohary-a13074167/
+- GitHub: https://github.com/HebaAbdElhamed
+- Email: hebaabdelhamede@gmail.com
