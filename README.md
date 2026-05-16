@@ -1,58 +1,174 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# 🚀 Enterprise HR Management System API
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+- Delete departments
+- View all departments
+- Assign employees to departments
 
-## About Laravel
+---
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## ⏰ Attendance System
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+- Employee Check-In
+- Employee Check-Out
+- Attendance history
+- Attendance tracking dashboard
+- Admin attendance monitoring
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+---
 
-## Learning Laravel
+## 🌴 Leave Management
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+- Apply for leave requests
+- Cancel leave requests
+- Admin approval/rejection
+- Leave balance tracking
+- Employee leave history
 
-In addition, [Laracasts](https://laracasts.com) contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+---
 
-You can also watch bite-sized lessons with real-world projects on [Laravel Learn](https://laravel.com/learn), where you will be guided through building a Laravel application from scratch while learning PHP fundamentals.
+## 💰 Payroll System
 
-## Agentic Development
+- Payroll generation
+- Salary tracking
+- Payment status management
+- Employee payroll history
+- Admin payroll controls
 
-Laravel's predictable structure and conventions make it ideal for AI coding agents like Claude Code, Cursor, and GitHub Copilot. Install [Laravel Boost](https://laravel.com/docs/ai) to supercharge your AI workflow:
+---
+
+# 🛠️ Tech Stack
+
+- Laravel 13
+- PHP 8+
+- MySQL
+- Laravel Sanctum
+- RESTful API
+- Eloquent ORM
+- MVC Architecture
+- Service Layer Pattern
+
+---
+
+# 📂 Project Structure
 
 ```bash
-composer require laravel/boost --dev
+app/
+ ├── Models/
+ ├── Services/
+ ├── Http/
+ └── Providers/
 
-php artisan boost:install
+routes/
+ └── api.php
+
+database/
+ └── migrations/
+
+
+ 🔥 API Modules
+Authentication
+Register
+Login
+Logout
+Current User
+Departments
+CRUD Operations
+Employees
+CRUD Operations
+Attendance
+Check In
+Check Out
+Attendance History
+Leaves
+Apply Leave
+Leave Decision
+Leave Balance
+Payrolls
+Generate Payroll
+Mark as Paid
+Payroll History
+
+⚙️ Installation & Setup
+1️⃣ Clone Repository
+git clone https://github.com/HebaAbdElhamed/laravel-hr-management-system-api.git
+
+2️⃣ Enter Project Folder
+cd laravel-hr-management-system-api
+3️⃣ Install Dependencies
+composer install
+4️⃣ Create Environment File
+cp .env.example .env
+5️⃣ Generate Application Key
+php artisan key:generate
+6️⃣ Configure Database
+
+Update your .env file:
+
+DB_DATABASE=your_database_name
+DB_USERNAME=your_database_user
+DB_PASSWORD=your_database_password
+7️⃣ Run Migrations
+php artisan migrate
+8️⃣ Start Development Server
+php artisan serve
+
+Server will run on:
+
+http://127.0.0.1:8000
+🔑 API Authentication
+
+This project uses:
+
+Laravel Sanctum
+
+Protected routes require Bearer Token authentication.
+
+📬 API Testing
+
+You can test APIs using:
+
+Postman
+Insomnia
+Thunder Client
+🌐 Frontend Repository
+
+The frontend application for this project is available here:
+
+👉 Frontend Repository:
+
+https://github.com/HebaAbdElhamed
+
+If you don't have a frontend yet, you can use the frontend repository from my GitHub profile.
+
+🧱 Architecture & Best Practices
+
+This project follows:
+
+RESTful API standards
+Clean code principles
+MVC Architecture
+Service Layer Pattern
+Reusable business logic
+Scalable folder structure
+Middleware-based authorization
+📌 Future Improvements
+Docker support
+API documentation using Swagger
+Notifications system
+Advanced reporting dashboard
+Email integrations
+Multi-role permissions
+Unit & Feature testing
+👩‍💻 Author
+Heba Elgohary
+LinkedIn: https://www.linkedin.com/in/heba-elgohary-a13074167/
+GitHub: https://github.com/HebaAbdElhamed
+Email: hebaabdelhamede@gmail.com
+⭐ Support
+
+If you like this project:
+
+Star the repository ⭐
+Fork the project 🍴
+Share it with others 🚀
 ```
-
-Boost provides your agent 15+ tools and skills that help agents build Laravel applications while following best practices.
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
