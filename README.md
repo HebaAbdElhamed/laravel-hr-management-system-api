@@ -130,83 +130,81 @@ cd laravel-hr-management-system-api
 ```
 
 ## 3️⃣ Install Dependencies
+```bash
 composer install
-## 4️⃣ Create Environment File
-cp .env.example .env
-## 5️⃣ Generate Application Key
-php artisan key:generate
-## 6️⃣ Configure Database
+```
 
+## 4️⃣ Create Environment File
+```bash
+cp .env.example .env
+```
+
+## 5️⃣ Generate Application Key
+```bash
+php artisan key:generate
+```
+
+## 6️⃣ Configure Database
+```bash
 Update your .env file:
 
 DB_DATABASE=your_database_name
 DB_USERNAME=your_database_user
 DB_PASSWORD=your_database_password
-7️⃣ Run Migrations
+```
+
+## 7️⃣ Run Migrations
+```bash
 php artisan migrate
-8️⃣ Start Development Server
+```
+
+## 8️⃣ Start Development Server
+```bash
 php artisan serve
+```
 
-Server will run on:
-
+## Server will run on:
+```bash
 http://127.0.0.1:8000
-🔑 API Authentication
+```
 
-This project uses:
+# 🔑 API Authentication
+- This project uses:
+  - Laravel Sanctum
+  - Protected routes require Bearer Token authentication.
 
-Laravel Sanctum
+# 📬 API Testing
 
-Protected routes require Bearer Token authentication.
+- You can test APIs using:
+  - Postman
+  - Insomnia
+  - Thunder Client
 
-📬 API Testing
-
-You can test APIs using:
-
-Postman
-Insomnia
-Thunder Client
-🌐 Frontend Repository
+# 🌐 Frontend Repository
 
 The frontend application for this project is available here:
-
 👉 Frontend Repository:
 
 https://github.com/HebaAbdElhamed
 
-If you don't have a frontend yet, you can use the frontend repository from my GitHub profile.
+If you don't have a frontend yet, you can use the frontend repository from my GitHub profile. https://github.com/HebaAbdElhamed
 
-🧱 Architecture & Best Practices
+# 🧱 Architecture & Best Practices
 
 This project follows:
 
-RESTful API standards
-Clean code principles
-MVC Architecture
-Service Layer Pattern
-Reusable business logic
-Scalable folder structure
-Middleware-based authorization
-📌 Future Improvements
-Docker support
-API documentation using Swagger
-Notifications system
-Advanced reporting dashboard
-Email integrations
-Multi-role permissions
-Unit & Feature testing
-👩‍💻 Author
-Heba Elgohary
-LinkedIn: https://www.linkedin.com/in/heba-elgohary-a13074167/
-GitHub: https://github.com/HebaAbdElhamed
-Email: hebaabdelhamede@gmail.com
-⭐ Support
+ - RESTful API standards
+ - Clean code principles
+ - MVC Architecture
+ - Service Layer Pattern
+ - Reusable business logic
+ - Scalable folder structure
+ - Middleware-based authorization
 
-If you like this project:
 
-Star the repository ⭐
-Fork the project 🍴
-Share it with others 🚀
+# 👩‍💻 Author
+## Heba Elgohary
+## LinkedIn: https://www.linkedin.com/in/heba-elgohary-a13074167/
+## GitHub: https://github.com/HebaAbdElhamed
+## Email: hebaabdelhamede@gmail.com
 
-```
-
-```
