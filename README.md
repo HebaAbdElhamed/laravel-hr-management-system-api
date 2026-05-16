@@ -1,5 +1,32 @@
 # 🚀 Enterprise HR Management System API
 
+A professional and scalable HR Management System RESTful API built with Laravel 13.
+
+# ✨ Features
+
+## 🔐 Authentication & Authorization
+- Secure authentication using Laravel Sanctum
+- Login & Register APIs
+- Protected routes with middleware
+- Role-based access control (Admin / Employee)
+- Secure logout functionality
+
+---
+
+## 👨‍💼 Employee Management
+- Create employees
+- Update employee data
+- Delete employees
+- View employee details
+- Employee profile management
+- Department assignment
+- Employee codes support
+
+---
+
+## 🏢 Department Management
+- Create departments
+- Update departments
 - Delete departments
 - View all departments
 - Assign employees to departments
@@ -7,7 +34,6 @@
 ---
 
 ## ⏰ Attendance System
-
 - Employee Check-In
 - Employee Check-Out
 - Attendance history
